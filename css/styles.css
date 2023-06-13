@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background: rgba(195, 34, 50, 0.83);
+
+   
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 50px;
+    
+}
+.principalTitle{
+    border-bottom: 1px solid;
+    font-size: 50px;
+}
+.seuTexto{
+    height: 600px;
+    width: 80%;
+    max-width: 600px;
+    padding: 10px;
+    font-size: 26px;
+}
