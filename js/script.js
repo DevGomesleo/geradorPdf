@@ -1,0 +1,4 @@
+
+function gerarPdf(){
+    alert('ok')
+}

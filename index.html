@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Gerar PDF | leoGomes</title>
 </head>
 <body>
     
+    <header>
+
+        <h1>Seu PDF Aqui </h1>
+    </header>
+    <main>
+        <section class="contentSection">
+            <textarea class="seuTexto" name="seuTexto" id="SeuTexto" cols="30" rows="10"></textarea>
+        </section>
+
+        <section class="btnSection">
+            <button onclick="gerarPdf()" class="btnPdf">PDF</button>
+        </section>
+    </main>
+
+    <footer>
+        <h3>&copy; leoGomes</h3>
+    </footer>
 
     <script src="/js/script.js"></script>
 </body>
